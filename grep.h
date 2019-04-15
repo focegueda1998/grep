@@ -34,3 +34,4 @@ void process_dir(const char* dir, const char* searchfor, void (*fp)(const char*,
 void drawline(void);
 jmp_buf  savej;
 char grepbuf[GBSIZE];
+void greperror(char); void grepline(void); void readfile(char*);
